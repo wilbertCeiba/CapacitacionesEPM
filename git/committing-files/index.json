@@ -19,7 +19,8 @@
       {
         "title": "Paso 3: Git Add",
         "text": "step3.md",
-        "answer": "step3-answer.md"
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
       },
       {
         "title": "Paso 4: Git Commit",
