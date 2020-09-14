@@ -6,9 +6,7 @@ El resultado de este comando se denomina "estado del árbol de trabajo".
 
 ## Tarea
 
-Para verificar el estado del repositorio, va crear un nuevo archivo. Para simplificar esto solo ejecute el siguiente comando `touch hello-world.js`{{execute}}. Este comando solo es de apoyo no tiene nada que ver con Git.
-
-Si lo desea puede abrir el archivo en el editor y escribir algo en el `hello-wordl.js`{{open}}, pero esto es opcional.
+Para verificar el estado del repositorio, va crear un nuevo archivo. Para esto de click en el siguiente enlace `hello-world.js`{{open}}. Si lo desea puede abrir el archivo en el editor y escribir algo en él, pero esto es opcional.
 
 Use el comando `git status` para conocer el estado del repositorio.
 
