@@ -13,7 +13,8 @@
       },
       {
         "title": "Paso 2: Git Status",
-        "text": "step2.md"
+        "text": "step2.md",
+        "background": "step2-background.sh"
       },
       {
         "title": "Paso 3: Git Add",
