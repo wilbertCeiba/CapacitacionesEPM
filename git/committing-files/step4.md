@@ -1,28 +1,11 @@
-The CLI can be used to add existing scenarios to a course.
+Una vez que se ha agregado un archivo al área de preparación, debe ser enviado al repositorio. El comando git `commit -m "mensaje de confirmación"` mueve archivos del área de preparación al repositorio y registra la fecha / hora, el autor y un mensaje de confirmación que se puede usar para agregar contexto y razonamiento adicionales a los cambios.  
 
-You can list your available scenarios, using this command:
-`find ./ -type f | grep index.json`{{execute}}
+Solo se confirmarán los cambios agregados al área de preparación, no se incluirán los archivos en el directorio de trabajo que no se hayan preparado.  
 
-For example, can add the existing scenario, called *quiz* to the previous created course *test-course* running the following command and follow the steps:
-`katacoda courses:add:scenarios`{{execute}}
+## Tarea
 
-The CLI will prompt you a few questions about:
-- Scenario path: type `./quiz`
-- Course path: type `./test-course`
+Utilice git `commit -m "<mensaje de confirmación>"` para confirmar el archivo preparado.
 
-And then select if you want to copy or move the scenario to the course folder.
+## Plus
 
-After that, you can see the scenario was added in your `test-course` opening `katacoda-scenario-examples/test-course-pathway.json`{{open}}
-
-<pre class="file">
-{
-  "title": "test-course",
-  "description": "Example course",
-  "courses": [
-    {
-      "course_id": "quiz",
-      "title": "Interactive Quiz",
-      "description": "Verify understand and key points by using an interactive quiz"
-    }
-  ]
-</pre>
+A cada confirmación se le asigna un hash SHA-1 que le permite volver a consultar la confirmación en otros comandos.
