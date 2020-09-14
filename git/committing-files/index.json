@@ -31,7 +31,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "git"
