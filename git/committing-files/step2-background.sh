@@ -1,1 +1,1 @@
-cat > hello-word.js
+cat > hello-world.js
