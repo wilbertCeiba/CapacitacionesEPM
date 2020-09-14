@@ -4,7 +4,7 @@ El archivo `.gitignore` le permite definir comodines para los archivos que desea
 
 ## Tarea
 
-Cree el archivo `.gitignore` dando click en el siguiente enlace`.gitignore`{{open}}. 
+Cree el archivo `.gitignore` dando click en el siguiente enlace `.gitignore`{{open}}. 
 
 Edite su contenido para que en el repositorio se ignoren todos los archivos de extensión `.tmp`.
 
