@@ -1,35 +1,14 @@
-Katacoda has a command line interface which helps to create the required files of courses and scenarios, etc.
+Para guardar o confirmar archivos en su repositorio de Git, primero debe agregarlos al área de prueba. Git tiene tres áreas, un directorio de trabajo, un área de preparación y el repositorio en sí. Los usuarios mueven los cambios, también conocidos como promover, desde el directorio de trabajo a un área de preparación antes de enviarlos al repositorio.  
 
-You can install the CLI using the following command:
-`npm i katacoda-cli --global`{{execute}}
+Uno de los enfoques clave con Git es que las confirmaciones son enfocadas, pequeñas y frecuentes. El área de preparación ayuda a mantener este flujo de trabajo al permitirle promover solo ciertos archivos a la vez en lugar de todos los cambios en su directorio de trabajo.
 
-The commands follow the syntax
-`$ katacoda COMMAND`
+## Tarea
 
-If you need help, to see the available commands, you can run
-`katacoda --help`{{execute}}
+Use el comando `git add <archivo | directorio>` para agregar `hello-world.js` al área de preparación.  
 
-To create a course, for example, called *test-course*, you can run the following command and follow the steps:
+Si realiza un cambio adicional después de agregar un archivo al área de preparación, el cambio no se reflejará hasta que agregue el archivo nuevamente.
 
-```
-cd katacoda-scenario-examples
-katacoda courses:create
-```{{execute}}
+## Plus
 
-The CLI will prompt you a few questions about:
-- **Title:** title of the course, displayed on the intro screen
-- **Description:** description of the course, displayed on the intro screen
-- **Friendly-url:** here you will type `test-course`. This attribute will determine the name of the folder of your course, and the URL to access it, so, should not contain spaces, should be lower case, etc. For example, if your username is *test-username* and your course was called *test-course* the URL to point the course in the platform will be https://katacoda.com/test-username/courses/test-course/
+Como se describe en el Paso 2, el comando git status le permite ver el estado tanto del directorio de trabajo como del área de preparación en cualquier momento.
 
-After that the CLI will create the pathway file and the folder.
-`ls test-course*`{{execute}}
-
-You can see the definition of the empty course in `katacoda-scenario-examples/test-course-pathway.json`{{open}}
-
-<pre class="file">
-{
-  "title": "test-course",
-  "description": "Example course",
-  "courses": []
-}
-</pre>
