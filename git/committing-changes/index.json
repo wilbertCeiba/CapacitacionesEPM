@@ -1,0 +1,39 @@
+{
+  "title": "Escenario 2: Confirmación de cambios",
+  "description": "Aprenda a comparar y confirmar cambios.",
+  "difficulty": "Principiante",
+  "time": "10 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Paso 1: Git Init",
+        "text": "step1.md"        
+      },
+      {
+        "title": "Paso 2: Git Status",
+        "text": "step2.md"      
+      },
+      {
+        "title": "Paso 3: Git Add",
+        "text": "step3.md"     
+      },
+      {
+        "title": "Paso 4: Git Commit",
+        "text": "step4.md"       
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "hideHiddenFiles": false
+  },
+  "backend": {
+    "imageid": "git"
+  }
+}
