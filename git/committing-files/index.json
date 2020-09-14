@@ -15,7 +15,7 @@
         "title": "Paso 2: Git Status",
         "text": "step2.md",
         "verify": "step2-verify.sh",
-        "answer": "step2-answer.md",
+        "answer": "step2-answer.md"
       },
       {
         "title": "Paso 3: Git Add",
