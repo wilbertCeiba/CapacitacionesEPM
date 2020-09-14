@@ -32,7 +32,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "hideHiddenFiles": true
+    "hideHiddenFiles": false
   },
   "backend": {
     "imageid": "git"
