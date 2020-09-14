@@ -30,9 +30,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "Git"
+    "imageid": "git"
   }
 }
