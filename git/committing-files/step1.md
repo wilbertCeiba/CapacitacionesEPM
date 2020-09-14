@@ -1,6 +1,6 @@
-Para inicializar un directorio con git, primero necesitas crearlo. `mkdir mi-primer-directorio-git`{{execute}}. Y segundo debes moverte a la raiz de este. `cd mi-primer-directorio-git`{{execute}}.
+Para inicializar un directorio con git, primero necesitas crearlo y segundo debes moverte a la raiz de este.  ```mkdir mi-primer-directorio-git  cd mi-primer-directorio-gi  echo 'import java.io' > hello-world.js```{{execute}}
 
-Los comandos anteriores son propios del bash de Linux, así que no debes preocuparte por ellos, solo son de apoyo para este escenario.
+Los comandos anteriores son propios del bash de Linux, así que no debes preocuparte por ellos, solo son de apoyo para este escenario, también se creo un archivo `hello-world.js`.
 
 ## Tarea
 
