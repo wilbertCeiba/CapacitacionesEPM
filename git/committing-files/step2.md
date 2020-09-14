@@ -4,7 +4,7 @@ Puede ver qué archivos han cambiado entre su directorio de trabajo y lo que se 
 
 El resultado de este comando se denomina "estado del árbol de trabajo".
 
-A continuación se da una breve explicación de aa salida generada por el comando `git status`  
+A continuación se da una breve explicación de aa salida generada por el comando `git status`{{execute}}  
 <pre>
 On branch master
 </pre>
