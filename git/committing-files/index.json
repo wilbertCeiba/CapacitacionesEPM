@@ -1,6 +1,8 @@
 {
   "title": "Creating a Katacoda Course",
   "description": "Learn how to create a collection of Katacoda scenarios into a course",
+  "difficulty": "beginner",
+  "time": "5-10 minutes",
   "details": {
     "steps": [
       {
@@ -31,6 +33,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "node"
+    "imageid": "git"
   }
 }
