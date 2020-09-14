@@ -1,12 +1,12 @@
 {
-  "title": "Katacoda UI Layouts Example",
-  "description": "Example of different Katacoda UI Layouts. Also, an example of creating a Katacoda Course!",
+  "title": "¡Ya es hora!, Git está esperando en conocerte.",
+  "description": "Vamos a conocernos con Git mediante escenarios interactivos basados en navegador",
   "icon": "fa-katacoda",
   "courses": [
     {
       "course_id": "committing-files",
-      "title": "Scenario with Terminal UI",
-      "description": "Katacoda Scenario Example"
+      "title": "Escenario 1: Confirmación de archivos",
+      "description": "Aprenda a iniciar un repositorio y comenzar a enviar archivos."
     }
   ]
 }
