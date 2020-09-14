@@ -1,10 +1,10 @@
-Para inicializar un directorio con git, primero necesitas crealo. `mkdir mi-primer-directorio-git`{{execute}}. Y segundo debes moverte a la raiz de este. `cd mi-primer-directorio-git`{{execute}}.
+Para inicializar un directorio con git, primero necesitas crearlo. `mkdir mi-primer-directorio-git`{{execute}}. Y segundo debes moverte a la raiz de este. `cd mi-primer-directorio-git`{{execute}}.
 
-Los comandos anteriores son propios del bash de Linux, así que no debe preocuparse por ellos, solo son de apoyo para nuestro escenario.
+Los comandos anteriores son propios del bash de Linux, así que no debes preocuparte por ellos, solo son de apoyo para este escenario.
 
 ## Tarea
 
-Como se trata de un proyecto nuevo, es necesario inicialiar el repositorio. Usa el comando `git init` para inicialiar el repositorio.
+Como se trata de un proyecto nuevo, es necesario inicializar el repositorio. Usa el comando `git init` para inicializar el repositorio.
 
 ### Datos importantes 
 
@@ -17,6 +17,7 @@ Los comandos GIT deben invocarse dentro del directorio de trabajo.
 Después de inicializar un repositorio, se crea un nuevo subdirectorio oculto llamado .git. Este subdirectorio contiene los metadatos que Git usa para almacenar su información. Si está interesado en los detalles, utilice la línea de comandos para explorar el contenido.
 
 ### Información almacenada en .git 
+
 Objetos que representan los ficheros, los directorios, los  commit, etc.  
 Referencias a repositorios remotos, ramas, etc.  
 Configuraciones.
