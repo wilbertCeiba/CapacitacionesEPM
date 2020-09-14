@@ -37,8 +37,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "hideHiddenFiles": false
+    "hideHiddenFiles": false,
+    "hidefinish": true,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/home/scrapbook/tutorial"
   },
   "backend": {
     "imageid": "git"
