@@ -42,7 +42,6 @@
   },
   "environment": {
     "hideHiddenFiles": false,
-    "hidefinish": true,
     "uilayout": "editor-terminal",
     "uieditorpath": "/home/scrapbook/tutorial"
   },
