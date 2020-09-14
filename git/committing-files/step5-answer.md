@@ -1,8 +1,8 @@
-`.gitignore`{{open}}  
+1. `.gitignore`{{open}}  
 
-<pre class="file" data-filename=".gitignore" data-target="prepend">*.tmp
+2. <pre class="file" data-filename=".gitignore" data-target="prepend">* .tmp
 </pre>  
 
-`git add .gitignore`{{execute}} 
+3. `git add .gitignore`{{execute}} 
 
-`git commit -m "Se ignoran todos los archivos .tmp"`{{execute}} 
+4. `git commit -m "Se ignoran todos los archivos .tmp"`{{execute}} 
