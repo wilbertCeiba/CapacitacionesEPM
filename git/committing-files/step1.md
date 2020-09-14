@@ -6,4 +6,4 @@ Como se trata de un proyecto nuevo, es necesario crear un nuevo repositorio. Usa
 
 ## Plus
 
-Después de inicializar un repositorio, se crea un nuevo subdirectorio oculto llamado .git. Este subdirectorio contiene los metadatos que Git usa para almacenar su información. Si está interesado en los detalles, utilice la línea de comandos para explorar el contenido. `cd .git` `ls` {{execute}}
+Después de inicializar un repositorio, se crea un nuevo subdirectorio oculto llamado .git. Este subdirectorio contiene los metadatos que Git usa para almacenar su información. Si está interesado en los detalles, utilice la línea de comandos para explorar el contenido. `cd .git`{{execute}} `ls`{{execute}}
