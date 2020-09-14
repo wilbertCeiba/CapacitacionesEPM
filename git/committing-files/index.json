@@ -18,7 +18,8 @@
       },
       {
         "title": "Paso 3: Git Add",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       },
       {
         "title": "Paso 4: Git Commit",
