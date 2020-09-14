@@ -4,15 +4,17 @@ Puede ver qué archivos han cambiado entre su directorio de trabajo y lo que se 
 
 El resultado de este comando se denomina "estado del árbol de trabajo".
 
-A continuación se da una breve explicación de aa salida generada por el comando `git status`{{execute}}  
+## Salida git status
+
+A continuación se da una breve explicación de la salida generada por el comando `git status` 
 <pre>
 On branch master
 </pre>
-Indica la rama (branch) sobre la que se esta obteniendo el estado. El tema de ramas (branch) se aborda en escenarios posteriores.  
+Indica la rama (branch) sobre la que se está obteniendo el estado. El tema de ramas (branch) se aborda en escenarios posteriores.  
 <pre>No commits yet</pre>
 Indica que no hay ninguna confirmación sobre la rama.
 <pre>Untracked files:</pre>
-Indica que hay archivos dentro del repositorio que aun no están sinedo rastreados por git.
+Indica que hay archivos dentro del repositorio que aún no están siendo rastreados por git.
 <pre>nothing added to commit but untracked files present (use "git add" to track)</pre>
 Indica que no hay ningun archivo para confirmar pero si existe archivos pendientes de rastreo.
 
