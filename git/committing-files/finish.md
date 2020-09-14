@@ -1,1 +1,1 @@
-Congratulations, you have learned how to make a course based on a collection of Katacoda scenarios.
+Este escenario ha explicado cómo puede inicializar un repositorio y luego enviar archivos a él. En el siguiente escenario, investigaremos cómo comparar y confirmar cambios en estos archivos. En escenarios futuros, cubriremos cómo compartir estos cambios con otras personas.
