@@ -33,6 +33,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "windows"
+    "imageid": "git"
   }
 }
