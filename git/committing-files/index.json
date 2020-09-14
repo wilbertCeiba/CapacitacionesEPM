@@ -33,6 +33,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "Git"
   }
 }
