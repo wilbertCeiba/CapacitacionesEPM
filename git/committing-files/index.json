@@ -31,7 +31,8 @@
       },
       {
         "title": "Paso 5: Git Ignore",
-        "text": "step5.md"
+        "text": "step5.md",
+        "answer": "step5-answer.md"
       }
     ],
     "intro": {
