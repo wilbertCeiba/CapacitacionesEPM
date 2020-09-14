@@ -8,7 +8,8 @@
       {
         "title": "Paso 1: Git Init",
         "text": "step1.md",
-        "answer": "answer1.md"
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Paso 2: Git Status",
