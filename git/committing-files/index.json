@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Paso 1: Git Init",
-        "text": "step1.md"
+        "text": "step1.md",
         "answer": "answer1.md"
       },
       {
