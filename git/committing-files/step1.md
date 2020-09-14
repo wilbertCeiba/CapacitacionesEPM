@@ -1,21 +1,9 @@
-A Katacoda course is defined by creating a pathway file. The pathway defines which scenarios should be included in the course and the order to display them.
+Para establecer un directorio bajo control de versiones, primero necesita crear un repositorio. Luego con Git, inicializa el repositorio siempre en el directorio de nivel superior para un proyecto.
 
-The collection of examples contains two courses, one to describe all the Katacoda content and another to describe the key Katacoda environments.
+## Tarea
 
-## Clone Example
+Como se trata de un proyecto nuevo, es necesario crear un nuevo repositorio. Usa el comando `git init`{{execute}} para crear un repositorio.
 
-Clone the example repository with the command `git clone https://github.com/katacoda/scenario-examples.git katacoda-scenario-examples`{{execute}}
+## Plus
 
-Within the root of a repository, a course has been created called `uilayouts`. The contents of the course have been defined as `katacoda-scenario-examples/uilayouts-pathway.json`{{open}}.
-
-Within the JSON file, the courses element defines each scenario. For example:
-
-<pre class="file">
-{
-    "course_id": "uilayout-terminal",
-    "title": "Scenario with Terminal UI",
-    "description": "Katacoda Scenario Example"
-},
-</pre>
-
-The **course_id** is the scenario name directory within the course directory. For example `ls katacoda-scenario-examples/uilayouts/uilayout-terminal`{{execute}}. The **title** and **description** are shown on the course page.
+Después de inicializar un repositorio, se crea un nuevo subdirectorio oculto llamado .git. Este subdirectorio contiene los metadatos que Git usa para almacenar su información. Si está interesado en los detalles, utilice la línea de comandos para explorar el contenido. `cd .git` `ls` {{execute}}
