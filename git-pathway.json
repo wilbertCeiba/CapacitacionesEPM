@@ -7,6 +7,11 @@
       "course_id": "committing-files",
       "title": "Escenario 1: Confirmación de archivos",
       "description": "Aprenda a iniciar un repositorio y comenzar a enviar archivos."
+    },
+    {
+      "course_id": "committing-changes",
+      "title": "Escenario 2: Confirmación de cambios",
+      "description": "Aprenda a comparar y confirmar cambios."
     }
   ]
 }
