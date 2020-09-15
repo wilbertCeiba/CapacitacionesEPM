@@ -9,6 +9,10 @@
         "title": "Paso 1: Git Status",
         "text": "step1.md",
         "background": "step1-background.sh"
+      },
+      {
+       "title": "Paso 2: Git Diff",
+       "text": "step2.md"
       }
     ],
     "intro": {
