@@ -1,4 +1,4 @@
-Para guardar o confirmar archivos en su repositorio de Git, primero debe agregarlos al área de prueba. Git tiene tres áreas, un directorio de trabajo, un área de preparación y el repositorio en sí. Los usuarios mueven los cambios, también conocidos como promover, desde el directorio de trabajo a un área de preparación antes de enviarlos al repositorio.  
+Git tiene tres áreas, un directorio de trabajo, un área de preparación y el repositorio en sí. Los usuarios mueven los cambios desde el directorio de trabajo a un área de preparación antes de enviarlos al repositorio.  
 
 Uno de los enfoques clave con Git es que las confirmaciones son enfocadas, pequeñas y frecuentes. El área de preparación ayuda a mantener este flujo de trabajo al permitirle promover solo ciertos archivos a la vez en lugar de todos los cambios en su directorio de trabajo.
 
