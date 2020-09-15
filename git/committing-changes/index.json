@@ -8,7 +8,7 @@
       {
         "title": "Paso 1: Git Init",
         "text": "step1.md",
-         "background": "step1-background.sh",
+         "background": "step1-background.sh"
       },
       {
         "title": "Paso 2: Git Diff",
