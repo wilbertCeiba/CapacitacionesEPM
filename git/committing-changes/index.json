@@ -9,26 +9,6 @@
         "title": "Paso 1: Git Init",
         "text": "step1.md",
         "background": "step1-background.sh"
-      },
-      {
-        "title": "Paso 2: Git Diff",
-        "text": "step2.md"      
-      },
-      {
-        "title": "Paso 3: Git Add",
-        "text": "step3.md"     
-      },
-      {
-        "title": "Paso 4: Diferencias por etapas",
-        "text": "step4.md"       
-      },
-      {
-        "title": "Paso 5: Git Log",
-        "text": "step5.md"       
-      },
-      {
-        "title": "Paso 6: Git Show",
-        "text": "step6.md"       
       }
     ],
     "intro": {
