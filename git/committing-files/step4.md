@@ -6,6 +6,13 @@ Solo se confirmarán los cambios agregados al área de preparación, no se inclu
 
 Utilice git `commit -m "<mensaje de confirmación>"` para confirmar el archivo preparado.
 
-## Plus
+## Tips
 
 A cada confirmación se le asigna un hash SHA-1 que le permite volver a consultar la confirmación en otros comandos.
+
+1. Hacer commits con más frecuencia
+2. Revisar el código antes de hacer commit
+3. Evitar commits con códigos a la mitad
+4. Escribir buenos mensajes en los commits
+5. hay que compartir código completo
+
