@@ -10,7 +10,7 @@ El proyecto gestionado por GIT debe estar contenido en un directorio.
 El directorio de trabajo: contiene los ficheros y subdirectorios del proyecto.  
 Los comandos GIT deben invocarse dentro del directorio de trabajo.  
 
-## Plus
+## Tips
 
 Después de inicializar un repositorio, se crea un nuevo subdirectorio oculto llamado .git. Este subdirectorio contiene los metadatos que Git usa para almacenar su información. Si está interesado en los detalles, utilice la línea de comandos para explorar el contenido.
 
