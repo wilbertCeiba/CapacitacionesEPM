@@ -12,7 +12,8 @@
       },
       {
        "title": "Paso 2: Git Diff",
-       "text": "step2.md"
+       "text": "step2.md",
+       "answer":"step2-answer.md"
       }
     ],
     "intro": {

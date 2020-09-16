@@ -1,10 +1,10 @@
 El comando `git diff` le permite comparar los cambios en el directorio de trabajo con una versión previamente confirmada. Por defecto, el comando compara el directorio de trabajo y la confirmación `HEAD`.
 
-Si desea comparar con una versión anterior, proporcione el hash de confirmación como parámetro, por ejemplo, `git diff <hash-commit>`. La comparación con las confirmaciones generará los cambios para todos los archivos modificados. Si desea comparar los cambios en un solo archivo, proporcione el nombre como un argumento, como git diff committed.js.
+Si desea comparar con una versión anterior, proporcione el hash de confirmación como parámetro, por ejemplo, `git diff <hash-commit>`. La comparación con las confirmaciones generará los cambios para todos los archivos modificados. Si desea comparar los cambios en un solo archivo, proporcione el nombre como un argumento, como `git diff <file-name>`.
 
 ## Tarea
 
-Use el comando git diff <file-name> para comparar las diferencias del archivo modificado committed.js con el archivo confirmado (committed) previamente.
+Use el comando git diff <file-name> para comparar las diferencias del archivo modificado committed.js con el archivo confirmado previamente.
 
 Al ejecutar el comando no te preocupes si no entiendes la salida que arroja, de todos modos no es muy amigable su presentación. 
 
@@ -12,7 +12,7 @@ Tampoco es importante que te aprendas de memoria cada linea de salida. Lo import
 
 ## Tips
 
-De forma predeterminada, la salida está en formato de diferencias combinadas. El comando git difftool cargará una herramienta externa de su elección para ver las diferencias.
+De forma predeterminada, la salida está en formato de diferencias combinadas. El comando `git difftool` cargará una herramienta externa de su elección para ver las diferencias.
 
 También existe multiples herramientas con un UI (interfaz de usuario) para hacer el manejo de git mas amigable.  
 
