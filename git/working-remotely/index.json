@@ -1,0 +1,50 @@
+{
+    "title": "Escenario 3: Trabajando de forma remota",
+    "description": "Aprenda a compartir sus cambios con otros y acceder a los cambios de otras personas.",
+    "difficulty": "Principiante",
+    "time": "10 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1: Git Remote",
+          "text": "step1.md",
+          "background":"step1-background.sh",
+          "answer": "step1-answer.md",
+          "verify": "step1-verify.sh"
+        },
+        {
+         "title": "Paso 2: Git Push",
+         "text": "step2.md",
+         "answer": "step2-answer.md",
+         "verify": "step2-verify.sh"
+        },
+        {
+          "title": "Paso 3: Git Pull",
+          "text": "step3.md",
+          "answer": "step3-answer.md",
+          "verify": "step3-verify.sh"
+         },
+         {
+          "title": "Paso 4: Git Fetch",
+          "text": "step4.md",
+          "answer": "step4-answer.md",
+          "verify": "step4-verify.sh"
+         }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/home/scrapbook/tutorial",
+      "hideHiddenFiles": false
+    },
+    "backend": {
+      "imageid": "git"
+    }
+  }
+  

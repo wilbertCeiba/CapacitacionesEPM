@@ -12,6 +12,11 @@
       "course_id": "committing-changes",
       "title": "Escenario 2: Confirmación de cambios",
       "description": "Aprenda a comparar y confirmar cambios."
+    },
+    {
+      "course_id": "working-remotely",
+      "title": "Escenario 3: Trabajando de forma remota",
+      "description": "Aprenda a compartir sus cambios con otros y acceder a los cambios de otras personas."
     }
   ]
 }

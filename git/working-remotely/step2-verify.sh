@@ -1,0 +1,1 @@
+git push origin master | grep -i 'Everything up-to-date' && echo "done"

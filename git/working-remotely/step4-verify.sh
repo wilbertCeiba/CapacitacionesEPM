@@ -1,0 +1,1 @@
+git branch | grep -i 'origin/master' && echo "done"
