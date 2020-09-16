@@ -30,11 +30,6 @@
         "title": "Paso 5: Git Log",
         "text": "step5.md",
         "answer":"step5-answer.md"
-       },
-       {
-        "title": "Paso 6: Git Show",
-        "text": "step6.md",
-        "answer":"step6-answer.md"
        }
     ],
     "intro": {
