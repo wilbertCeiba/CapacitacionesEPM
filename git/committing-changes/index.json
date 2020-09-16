@@ -14,7 +14,13 @@
        "title": "Paso 2: Git Diff",
        "text": "step2.md",
        "answer":"step2-answer.md"
-      }
+      },
+      {
+        "title": "Paso 3: Git Add",
+        "text": "step3.md",
+        "answer":"step3-answer.md",
+        "verify":"step3-verify.sh"
+       }
     ],
     "intro": {
       "text": "intro.md"
