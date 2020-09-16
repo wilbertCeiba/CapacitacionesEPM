@@ -20,6 +20,11 @@
         "text": "step3.md",
         "answer":"step3-answer.md",
         "verify":"step3-verify.sh"
+       },
+       {
+        "title": "Paso 3: Diferencias con el área de preparación",
+        "text": "step4.md",
+        "answer":"step4-answer.md"
        }
     ],
     "intro": {

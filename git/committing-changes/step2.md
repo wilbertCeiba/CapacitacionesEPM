@@ -4,7 +4,7 @@ Si desea comparar con una versión anterior, proporcione el hash de confirmació
 
 ## Tarea
 
-Use el comando git diff <file-name> para comparar las diferencias del archivo modificado committed.js con el archivo confirmado previamente.
+Use el comando `git diff <file-name>` para comparar las diferencias del archivo modificado `committed.js` con el archivo confirmado previamente.
 
 Al ejecutar el comando no se preocupe si no entiende la salida que arroja, de todos modos no es muy amigable su presentación. 
 
