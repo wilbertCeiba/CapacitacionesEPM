@@ -17,6 +17,11 @@
       "course_id": "working-remotely",
       "title": "Escenario 3: Trabajando de forma remota",
       "description": "Aprenda a compartir sus cambios con otros y acceder a los cambios de otras personas."
+    },
+    {
+      "course_id": "undoing-changes",
+      "title": "Escenario 4: Deshaciendo cambios",
+      "description": "Aprenda a deshacer cambios cuando sea necesario."
     }
   ]
 }

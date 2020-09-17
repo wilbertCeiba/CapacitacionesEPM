@@ -1,0 +1,57 @@
+{
+  "title": "Escenario 4: Deshacer cambios",
+  "description": "Aprenda a deshacer cambios cuando sea necesario.",
+  "difficulty": "Principiante",
+  "time": "10 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Paso 1: Git Checkout",
+        "text": "step1.md",
+        "background":"step1-background.sh",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Paso 2 - Restablecimiento de Git",
+        "text": "step2.md",
+        "background":"step2-background.sh",
+        "verify": "step2-verify.sh",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "Paso 3 - Git Reset Hard",
+        "text": "step3.md",
+        "background":"step3-background.sh",
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
+      },
+      {
+        "title": "Paso 4 - Git Revert",
+        "text": "step4.md",
+        "answer": "step4-answer.md",
+        "verify": "step4-verify.sh"
+      },
+      {
+        "title": "Paso 5 - Git Revert",
+        "text": "step5.md",
+        "answer": "step5-answer.md",
+        "verify": "step5-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideHiddenFiles": false,
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/home/scrapbook/tutorial"
+  },
+  "backend": {
+    "imageid": "git"
+  }
+}
