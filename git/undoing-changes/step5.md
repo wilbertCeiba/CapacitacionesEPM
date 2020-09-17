@@ -2,7 +2,7 @@ Para revertir múltiples confirmaciones a la vez, usamos el carácter ~ para sig
 
 ## Tarea
 
-Utilice el comando `git revert HEAD...HEAD~2`{{execute}} para revertir las confirmaciones entre HEAD y HEAD~2.
+Utilice el comando `git revert HEAD...HEAD~2 --no-edit`{{execute}} para revertir las confirmaciones entre HEAD y HEAD~2.
 
 ## Plus
 
