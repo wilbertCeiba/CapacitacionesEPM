@@ -1,1 +1,1 @@
-git config --list | grep -q 'remote.origin.url=https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git' && echo "done"
+ls | grep -q 'Aprendiendo_Git' && echo 'done'
