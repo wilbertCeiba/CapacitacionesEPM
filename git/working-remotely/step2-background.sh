@@ -1,5 +1,5 @@
 cd Aprendiendo_Git
-$Number = echo $((1 + RANDOM % 10))
-echo 'Área de preparación' > "staging_$Number.txt"
-git add "staging_$Number.txt"
+file = "staging_$RANDOM.txt"
+echo 'Área de preparación' > $file
+git add $file
 git commit -m "Initial Commit"
