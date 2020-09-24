@@ -1,0 +1,1 @@
+Este escenario demostró cómo puede empujar (push) / obtener (pull) cambios entre diferentes repositorios. Al usar continuamente `git push` y `git pull`, puede asegurarse de que todos tengan acceso a la última versión del código base.

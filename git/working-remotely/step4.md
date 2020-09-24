@@ -1,4 +1,8 @@
-El comando `git pull` es una combinación de dos comandos diferentes, `git fetch` y `git merge`. Fetch descarga los cambios del repositorio remoto en una rama separada llamada `remotes/ <remote-name>/<remote-branch-name>`. Se puede acceder a la rama usando `git checkout`. Y `git merge` fusiona los cambios de las rama remota con la rama local. Cubriremos la fusión con más detalle en un escenario futuro.
+El comando `git pull` es una combinación de dos comandos diferentes, `git fetch` y `git merge`. 
+
+ `git fetch` descarga los cambios del repositorio remoto en una rama separada llamada `remotes/ <remote-name>/<remote-branch-name>`. Se puede acceder a la rama usando `git checkout`.
+
+ `git merge` fusiona los cambios de las rama remota con la rama local. Cubriremos la fusión con más detalle en un escenario futuro.
 
 Usar `git fetch` es una excelente manera de revisar los cambios sin afectar su rama actual.
 
