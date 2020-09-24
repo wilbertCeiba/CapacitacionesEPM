@@ -16,6 +16,7 @@
          "title": "Paso 2: Git Push",
          "text": "step2.md",
          "background":"step2-background.sh",
+         "foreground":"step2-foreground.sh",
          "answer": "step2-answer.md",
          "verify": "step2-verify.sh"
         },
