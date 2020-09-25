@@ -22,6 +22,11 @@
       "course_id": "undoing-changes",
       "title": "Escenario 4: Deshaciendo cambios",
       "description": "Aprenda a deshacer cambios cuando sea necesario."
+    },
+    {
+      "course_id": "fixing-merge-conflicts",
+      "title": "Escenario 5: Solucionar conflictos de merge",
+      "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan."
     }
   ]
 }

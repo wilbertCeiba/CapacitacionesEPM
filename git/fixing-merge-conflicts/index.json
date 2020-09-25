@@ -1,0 +1,33 @@
+{
+    "title": "Escenario 4: Deshacer cambios",
+    "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan.",
+    "difficulty": "Principiante",
+    "time": "10 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1: Git Merge",
+          "text": "step1.md",
+          "background":"step1-background.sh",
+          "foreground":"step1-foreground.sh",
+          "answer": "step1-answer.md",
+          "verify": "step1-verify.sh"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "hideHiddenFiles": false,
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/home/scrapbook/tutorial"
+    },
+    "backend": {
+      "imageid": "git"
+    }
+  }
+  
