@@ -11,4 +11,3 @@ sleep 3
 git checkout master
 echo 'console.log("Modificado por mi");' > $file
 git add $file
-git commit -m "Commit Secundario"
