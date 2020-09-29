@@ -1,9 +1,3 @@
-## Tarea
-
-Suponiendo que ya completaste todo el trabajo que estabas desarrollando en la rama feature/* ya podrías proceder a eliminar la rama local y remota con los siguientes comandos: 
-
-Antes de eliminar una rama asegúrate de que has subido todos los cambios y también debes situarte en una rama distinta para poder eliminarla.
-
 Para pasarse a una rama distinta usa el siguiente comando `git checkout desarrollo`{{execute}}
 
 Eliminar la rama local: `git branch -d feature/nombre_de_la_rama_a_eliminar`{{copy}}
