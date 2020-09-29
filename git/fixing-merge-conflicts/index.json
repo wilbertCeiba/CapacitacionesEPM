@@ -8,14 +8,14 @@
         {
           "title": "Paso 1: Git Merge",
           "text": "step1.md",
-          "background":"step1-background.sh",
           "foreground":"step1-foreground.sh",
           "answer": "step1-answer.md",
           "verify": "step1-verify.sh"
         }
       ],
       "intro": {
-        "text": "intro.md"
+        "text": "intro.md",
+        "background": "intro-background.sh"
       },
       "finish": {
         "text": "finish.md"
