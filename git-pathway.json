@@ -27,6 +27,11 @@
       "course_id": "fixing-merge-conflicts",
       "title": "Escenario 5: Solucionar conflictos de merge",
       "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan."
+    },
+    {
+      "course_id": "full-exercise",
+      "title": "Ejercicio completo",
+      "description": "Realice un flujo completo en un escenario colaborativo"
     }
   ]
 }

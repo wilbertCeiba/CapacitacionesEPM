@@ -1,0 +1,83 @@
+{
+    "title": "Escenario 5: Ejercicio completo",
+    "description": "Aprenda a utilizar los comandos básicos para realizar tareas git",
+    "difficulty": "Intermedio",
+    "time": "10 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1: Configuración global",
+          "text": "step1.md",
+          "answer": "step1-answer.md",
+          "verify": "step1-verify.sh"
+        },
+        {
+         "title": "Paso 2: Clonar repositorio",
+         "text": "step2.md",
+         "answer": "step2-answer.md",
+         "verify": "step2-verify.sh"
+        },
+        {
+          "title": "Paso 3: Pasar la consola al directorio clonado",
+          "text": "step3.md",
+          "answer": "step3-answer.md",
+          "verify": "step3-verify.sh"
+         },
+         {
+          "title": "Paso 4: Listar todas las ramas",
+          "text": "step4.md",
+          "answer": "step4-answer.md",
+          "verify": "step4-verify.sh"
+         },
+         {
+          "title": "Paso 5: Crear nueva rama",
+          "text": "step5.md",
+          "answer": "step5-answer.md",
+          "verify": "step5-verify.sh"
+         },
+         {
+          "title": "Paso 6: Crear archivo .html",
+          "text": "step6.md"
+         },
+         {
+          "title": "Paso 7: Zona de preparación",
+          "text": "step7.md"
+         },
+         {
+          "title": "Paso 8: Confirmar cambios",
+          "text": "step8.md"
+         },
+         {
+          "title": "Paso 9: Subir a repositorio remoto",
+          "text": "step9.md"
+         },
+         {
+          "title": "Paso 10: Revisar los cambios en Azure DevOps",
+          "text": "step10.md"
+         },
+         {
+          "title": "Paso 11: Descargar nuevos cambios de desarrollo",
+          "text": "step11.md"
+         },
+         {
+          "title": "Paso 12: Indicaciones Trabajo futuro",
+          "text": "step12.md"
+         }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/home/scrapbook/tutorial",
+      "hideHiddenFiles": false
+    },
+    "backend": {
+      "imageid": "git"
+    }
+  }
+  
