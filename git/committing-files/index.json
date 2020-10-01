@@ -45,7 +45,7 @@
   },
   "environment": {
     "hideHiddenFiles": false,
-    "uilayout": "editor-terminal",
+    "uilayout": "vscode-terminal-split",
     "uieditorpath": "/home/scrapbook/tutorial"
   },
   "backend": {
