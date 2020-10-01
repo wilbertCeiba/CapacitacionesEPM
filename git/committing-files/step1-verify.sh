@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/.git ] && echo "done"
+[ -d /root/example/.git ] && echo "done"
