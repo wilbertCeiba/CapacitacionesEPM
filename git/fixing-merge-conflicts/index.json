@@ -1,5 +1,5 @@
 {
-    "title": "Escenario 4: Deshacer cambios",
+    "title": "Escenario 5: Solucionar conflictos de merge",
     "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan.",
     "difficulty": "Principiante",
     "time": "10 minutos",
@@ -11,6 +11,12 @@
           "foreground":"step1-foreground.sh",
           "answer": "step1-answer.md",
           "verify": "step1-verify.sh"
+        },
+        {
+          "title": "Paso 2: Ver conflicto",
+          "text": "step2.md",
+          "answer": "step2-answer.md",
+          "verify": "step2-verify.sh"
         }
       ],
       "intro": {

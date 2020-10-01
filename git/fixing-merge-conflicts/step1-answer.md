@@ -1,0 +1,1 @@
+`git merge master`{{execute}}

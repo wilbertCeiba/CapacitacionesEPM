@@ -4,9 +4,9 @@ Cuando no existan conflictos, la combinación se 'adelantará rápidamente' y no
 
 ## Tarea
 
-En su entorno, se han obtenido los cambios de un repositorio remoto.
+En su entorno, se a confirmado un archivo usando la rama master y se a creado una rama donde se a creado el mismo archivo.
 
-Ahora necesita fusionar los cambios de `origin/maestro`.
+Ahora necesita fusionar los cambios de `master`.
 
 Esto resultará en un conflicto de fusión. El conflicto indica que la fusión falló porque ambos repositorios agregaron el archivo. Resolveremos esto en los siguientes pasos siguientes.
 
