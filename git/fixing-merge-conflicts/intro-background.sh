@@ -4,12 +4,13 @@ git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure
 sleep 3
 cd Aprendiendo_Git
 git branch "feature/merge_$number_random"
+git checkout "feature/merge_$number_random"
 echo 'console.log("Modificado por otro desarrollador");' > $file
 git add $file
 git commit -m "Commit Inicial"
-git push https://tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git master
+git push https://tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git remotes/origin/master
 sleep 3
-git checkout "feature/merge_$number_random"
+git checkout master
 echo 'console.log("Modificado por mi");' > $file
 git add $file
 git commit -m "Commit Inicial"
