@@ -45,9 +45,7 @@
   },
   "environment": {
     "uieditorpath": "/home/scrapbook/tutorial",
-    "showide": false,
-    "idePort": 23000,
-    "uilayout": "terminal"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "git"
