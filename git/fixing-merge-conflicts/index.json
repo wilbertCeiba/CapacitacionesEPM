@@ -17,6 +17,12 @@
           "text": "step2.md",
           "answer": "step2-answer.md",
           "verify": "step2-verify.sh"
+        },
+        {
+          "title": "Paso 3: Resolviendo conflicto",
+          "text": "step3.md",
+          "answer": "step3-answer.md",
+          "verify": "step3-verify.sh"
         }
       ],
       "intro": {
@@ -29,7 +35,7 @@
     },
     "environment": {
       "hideHiddenFiles": false,
-      "uilayout": "vscode-terminal-split",
+      "uilayout": "editor-terminal",
       "uieditorpath": "/home/scrapbook/tutorial"
     },
     "backend": {
