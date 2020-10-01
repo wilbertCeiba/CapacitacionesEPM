@@ -44,7 +44,7 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/example",
+    "uieditorpath": "/home/scrapbook/tutorial",
     "showide": true,
     "idePort": 23000,
     "uilayout": "terminal"
