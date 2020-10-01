@@ -44,8 +44,9 @@
     }
   },
   "environment": {
-    "uieditorpath": "/home/scrapbook/tutorial",
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "editor-terminal",
+    "uisettings": "javascript",
+    "uieditorpath": "/home/scrapbook/tutorial/example"
   },
   "backend": {
     "imageid": "git"
