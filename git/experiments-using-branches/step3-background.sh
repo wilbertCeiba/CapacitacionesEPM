@@ -1,3 +1,4 @@
+cd Aprendiendo_Git
 number_random=$RANDOM
 file="newFileCommit_$number_random.txt"
 echo 'console.log("Solución al bug #452");' > $file
