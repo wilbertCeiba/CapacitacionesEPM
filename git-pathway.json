@@ -29,6 +29,11 @@
       "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan."
     },
     {
+      "course_id": "experiments-using-branches",
+      "title": "Escenario 6: Experimentos con ramas",
+      "description": "Aprenda a crear ramas de master para experimentar y crear prototipos de ideas."
+    },
+    {
       "course_id": "full-exercise",
       "title": "Ejercicio completo",
       "description": "Realice un flujo completo en un escenario colaborativo"

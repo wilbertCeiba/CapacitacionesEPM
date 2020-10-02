@@ -1,0 +1,50 @@
+{
+    "title": "Escenario 6: Experimentos con ramas",
+    "description": "Aprenda a crear ramas de master para experimentar y crear prototipos de ideas.",
+    "difficulty": "Principiante",
+    "time": "10 minutos",
+    "details": {
+      "steps": [
+        {
+          "title": "Paso 1: Git Branch",
+          "text": "step1.md",
+          "foreground":"step1-foreground.sh",
+          "answer": "step1-answer.md",
+          "verify": "step1-verify.sh"
+        },
+        {
+            "title": "Paso 2: Listar Ramas",
+            "text": "step2.md",
+            "answer": "step2-answer.md",
+            "verify": "step2-verify.sh"
+        },
+        {
+            "title": "Paso 3: Merge a master",
+            "text": "step3.md",
+            "answer": "step3-answer.md",
+            "verify": "step3-verify.sh"
+        },
+        {
+            "title": "Paso 4: Push Ramas",
+            "text": "step4.md",
+            "answer": "step4-answer.md",
+            "verify": "step4-verify.sh"
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "hideHiddenFiles": false,
+      "uilayout": "editor-terminal",
+      "uieditorpath": "/home/scrapbook/tutorial"
+    },
+    "backend": {
+      "imageid": "git"
+    }
+  }
+  
