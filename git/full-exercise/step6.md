@@ -7,9 +7,9 @@ Copia el siguiente comando en la consola, reemplaza el texto "Tu_Nombre_Completo
 ````echo '\<h1>Nombre: \</h1>
 \<p>Rol: \</p>' >> archivos/Tu_Nombre_Completo_Sin_Espacios.html````{{copy}}
 
-Ahora que el archivo está creado, búscalo en la parte superior, (despliega la carpeta "TallerGit", luego la carpeta "archivos" y busca el archivo recién creado), dale clic para abrirlo y modificarlo con tus datos. No es necesario guardar, ya que este se guarda automáticamente con cada cambio.
+Ahora que el archivo está creado, búscalo en la parte superior, (De clic en la carpeta "TallerGit", luego la carpeta "archivos" y busca el archivo recién creado), dale clic para abrirlo y modificarlo con tus datos. No es necesario guardar, ya que en esta plataforma se guarda automáticamente cada cambio en el editor de archivos.
 
-Si ya tienes el archivo con tus datos, puedes pasar al siguiente paso.
+Si ya tienes el archivo .html con tus datos, puedes pasar al siguiente paso.
 
 Tenga en cuenta el nombre del archivo porque puede que lo necesites saber en los pasos posteriores.
 

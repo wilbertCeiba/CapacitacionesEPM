@@ -2,7 +2,7 @@ Los repositorios remotos le permiten compartir cambios desde o hacia su reposito
 
 ## Tarea
 
-Usando el comando `git clone`, clone el repositorio remoto https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit.
+Usando el comando `git clone`, clone el repositorio remoto.
 
 `git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit`{{execute}}
 

@@ -1,3 +1,6 @@
+En el día a día del trabajo con Git una de las cosas útiles que podemos hacer es trabajar con ramas. Las ramas son caminos que puede tomar el desarrollo de un software, algo que ocurre naturalmente para resolver problemas o crear nuevas funcionalidades. En la práctica permiten que nuestro proyecto pueda tener diversos estados y que los desarrolladores sean capaces de pasar de uno a otro de una manera ágil.
+
+
 ## Tarea
 
 Si quieres listar las ramas que tenemos en nuestro repositorio, incluidas las ramas remotas, debes ejecutar el comando

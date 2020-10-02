@@ -1,3 +1,8 @@
+Para poder colaborar en cualquier proyecto Git, necesitas saber cómo gestionar repositorios remotos. Los repositorios remotos son versiones de tu proyecto que están hospedadas en Internet (ejemplo Azure DevOps) o en cualquier otra red.
+
+Colaborar con otras personas implica gestionar estos repositorios remotos enviando y trayendo datos de ellos cada vez que necesites.
+
+
 ## Tarea
 
 Este se trata de que entres al repositorio remoto y veas el reflejo de tu trabajo :-)

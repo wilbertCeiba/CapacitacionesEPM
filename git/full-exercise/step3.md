@@ -7,7 +7,7 @@ Primero que todo ejecuta el comando `ls -a`{{execute}} para que observes que se 
 
 Con el siguiente comando puede pasar la consola de comandos al directorio "TallerGit" que es el directorio donde se clonó el repositorio `cd TallerGit`{{execute}}
 
-Si quieres listar los archivos y carpetas incluidos los ocultos como la carpeta .git, debes ejecutar el comando `ls -a`{{execute}} en linux o `dir -a`{{copy}} en Windows.
+Si quieres listar los archivos y carpetas incluidos los ocultos como la carpeta .git, debes ejecutar el comando `ls -a`{{execute}} en linux.
 
 ## Nota
 
