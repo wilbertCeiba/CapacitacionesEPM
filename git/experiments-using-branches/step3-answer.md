@@ -1,4 +1,4 @@
-`git checkout master`{{execute}}
+1. `git checkout master`{{execute}}
 
-`git merge features/WO<nombre-cedula>`
+2. `git merge features/WO<nombre-cedula>`
 

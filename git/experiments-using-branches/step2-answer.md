@@ -1,1 +1,1 @@
-`git branch -v`{{execute}}
+1. `git branch -v`{{execute}}

@@ -1,4 +1,3 @@
-`git branch features/WO<nombre-cedula> master`
+1. `git branch features/WO<nombre-cedula> master`
 
-`git checkout features/WO<nombre-cedula>`
-
+2. `git checkout features/WO<nombre-cedula>`

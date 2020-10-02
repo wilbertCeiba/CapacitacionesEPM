@@ -21,14 +21,21 @@
         {
             "title": "Paso 3: Merge a master",
             "text": "step3.md",
+            "background":"step3-background.sh",
             "answer": "step3-answer.md",
             "verify": "step3-verify.sh"
         },
         {
-            "title": "Paso 4: Push Ramas",
+            "title": "Paso 4: Push Branch",
             "text": "step4.md",
             "answer": "step4-answer.md",
             "verify": "step4-verify.sh"
+        },
+        {
+            "title": "Paso 5: Delete Branch",
+            "text": "step5.md",
+            "answer": "step5-answer.md",
+            "verify": "step5-verify.sh"
         }
       ],
       "intro": {
