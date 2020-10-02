@@ -11,8 +11,11 @@ Ahora que ya subiste al repositorio remoto los cambios de tu nueva rama. Ingresa
 
 https://dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit/branches?_a=all
 
-Si encontraste tu rama, !Felicitaciones¡.
+Si encontraste tu rama, !Felicitaciones¡. Da clic en ella y mira los cambios que hiciste.
 
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/10.png)
 
 ## Nota
 

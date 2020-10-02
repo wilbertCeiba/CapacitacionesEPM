@@ -13,6 +13,11 @@ Para agregar todos los archivos nuevos y modificados a la zona de preparación (
 
 Vuelve a usar el comando `git status`{{execute}} para que observes que ya debió haber cambiado el estado del archivo (muestra que está listo para confirmar).
 
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/7-1.png)
+![Resultado esperado](./assets/7-2.png)
+
 ## Nota
 
 Git "no rastrea" todos los archivos hasta que se indique lo contrario.

@@ -1,5 +1,5 @@
 
-## Tarea
+## Tarea Plus
 
 Suponga que tienes un nuevo desarrollo distinto a lo que completaste en los pasos anteriores, lo que debes hacer para seguir trabajando con el repositorio que clonaste en los primeros pasos es:
 
@@ -10,6 +10,9 @@ luego de esto podrías seguir los mismos pasos desde el punto 5 de este ejercici
 
 Ya con esto tienes el conocimiento necesario para trabajar colaborativamente con git ¡Felicitaciones¡
 
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/12.png)
 
 ## Nota 
 

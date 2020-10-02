@@ -6,6 +6,10 @@ Solo se confirmarán los cambios agregados al área de preparación, no se inclu
 
 Utilice `git commit -m "se creó un nuevo archivo html con mi información"`{{execute}} para confirmar el archivo preparado.
 
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/8.png)
+
 ## Nota
 
 El comando `git commit` y  `git add` funciona también para múltiples archivos.

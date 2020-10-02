@@ -1,10 +1,14 @@
-Los repositorios remotos le permiten compartir cambios desde o hacia su repositorio. Los repositorios remotos se clonan usando el comando `git clone <remote-url>` donde `<remote-url>` es la ubicación remota, generalmente una URL HTTPS o una conexión SSH, por ejemplo https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit  
+Los repositorios remotos le permiten compartir cambios desde o hacia su repositorio. Los repositorios remotos se clonan usando el comando `git clone <remote-url>` donde `<remote-url>` es la ubicación remota, generalmente una URL HTTPS.
 
 ## Tarea
 
-Usando el comando `git clone`, clone el repositorio remoto.
+Usando el comando `git clone`, clone el repositorio remoto con el que se desarrollarán los siguientes pasos de este escenario.
 
 `git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/TallerGit`{{execute}}
+
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/2.png)
 
 ## Nota
 

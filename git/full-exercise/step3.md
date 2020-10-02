@@ -9,6 +9,10 @@ Con el siguiente comando puede pasar la consola de comandos al directorio "Talle
 
 Si quieres listar los archivos y carpetas incluidos los ocultos como la carpeta .git, debes ejecutar el comando `ls -a`{{execute}} en linux.
 
+## Muestra de resultado esperado
+
+![Resultado esperado](./assets/3.png)
+
 ## Nota
 
 Estos comandos se usan en este paso de forma educativa, sin embargo en la vida real esto lo harías directamente en tu explorador de archivos.
