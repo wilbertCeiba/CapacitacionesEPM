@@ -13,8 +13,7 @@ sleep 3
 git fetch origin
 git checkout remotes/origin/master
 git merge "features/merge_$number_random"
-git pull origin master
-git push https://tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git origin/master
+git push -f https://tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git origin/master
 sleep 3
 git checkout master
 git checkout .
