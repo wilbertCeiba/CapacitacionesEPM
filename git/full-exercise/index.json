@@ -37,31 +37,45 @@
          },
          {
           "title": "Paso 6: Crear archivo .html",
-          "text": "step6.md"
+          "text": "step6.md",
+          "answer": "step6-answer.md",
+          "verify": "step6-verify.sh"
          },
          {
           "title": "Paso 7: Zona de preparación",
-          "text": "step7.md"
+          "text": "step7.md",
+          "answer": "step7-answer.md",
+          "verify": "step7-verify.sh"
          },
          {
           "title": "Paso 8: Confirmar cambios",
-          "text": "step8.md"
+          "text": "step8.md",
+          "answer": "step8-answer.md",
+          "verify": "step8-verify.sh"
          },
          {
           "title": "Paso 9: Subir a repositorio remoto",
-          "text": "step9.md"
+          "text": "step9.md",
+          "answer": "step9-answer.md",
+          "verify": "step9-verify.sh"
          },
          {
           "title": "Paso 10: Revisar los cambios en Azure DevOps",
-          "text": "step10.md"
+          "text": "step10.md",
+          "answer": "step10-answer.md",
+          "verify": "step10-verify.sh"
          },
          {
           "title": "Paso 11: Eliminar ramas",
-          "text": "step11.md"
+          "text": "step11.md",
+          "answer": "step11-answer.md",
+          "verify": "step1-verify.sh"
          },
          {
           "title": "Paso 12: Indicaciones Trabajo futuro",
-          "text": "step12.md"
+          "text": "step12.md",
+          "answer": "step12-answer.md",
+          "verify": "step12-verify.sh"
          }
       ],
       "intro": {

@@ -1,1 +1,1 @@
-echo "done"
+pwd | grep -i '/TallerGit' && echo "done"

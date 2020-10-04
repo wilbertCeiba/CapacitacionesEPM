@@ -1,1 +1,1 @@
-echo "done"
+git status | grep -i 'new file:   archivos/' && echo "done"

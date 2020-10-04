@@ -1,1 +1,1 @@
-echo "done"
+ls | grep -q 'TallerGit' && echo 'done'

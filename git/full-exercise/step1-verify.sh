@@ -1,1 +1,1 @@
-echo "done"
+git config --list | grep -i 'user.email=' && git config --list | grep -i 'user.name=' && echo "done"
