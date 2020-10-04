@@ -6,7 +6,9 @@ Hay comandos que no tendrás que copiar y pegar manualmente como el anterior, so
 
 En algunos ejercicios te pediremos que ejecutes un comando pero cambiando alguna palabra, para hacer esto copia el comando como te enseñamos inicialmente, pégalo en la consola y con la ayuda de las teclas de dirección izquierda y derecha puedes mover el cursor, para borrar puedes utilizar la tecla Supr o Del. Para ejecutar el comando oprime la tecla enter.
 
-Ejemplo ejecuta el siguiente comando cambiando TU_NOMBRE por el tuyo `echo "hola mundo, soy TU_NOMBRE"`{{copy}}, se debió haber impreso en la consola el mensaje de "hola mundo, soy TU_NOMBRE_REAL"
+Ejemplo ejecuta el siguiente comando cambiando TU_NOMBRE por el tuyo y manteniendo las comillas `echo "hola mundo, soy TU_NOMBRE"`{{copy}}, se debió haber impreso en la consola el mensaje de "hola mundo, soy TU NOMBRE REAL"
+
+En algunos casos se te pedirá que cambies algo en un comando por tu nombre sin espacios, puedes separarlos por guión bajo. Ejemplo: Gonzalo_Andres_Garcia
 
 
 ## Inicio
