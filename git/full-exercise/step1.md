@@ -8,7 +8,9 @@ En algunos ejercicios te pediremos que ejecutes un comando pero cambiando alguna
 
 Ejemplo ejecuta el siguiente comando cambiando TU_NOMBRE por el tuyo y manteniendo las comillas `echo "hola mundo, soy TU_NOMBRE"`{{copy}}, se debió haber impreso en la consola el mensaje de "hola mundo, soy TU NOMBRE REAL"
 
-En algunos casos se te pedirá que cambies algo en un comando por tu nombre sin espacios, puedes separarlos por guión bajo. Ejemplo: Gonzalo_Andres_Garcia
+En algunos casos se te pedirá que cambies algo en un comando por tu nombre sin espacios, puedes separarlos por guión bajo. Ejemplo: Gonzalo_Andres_Garcia.
+
+Si haces clic en el botón "Show Solution" que se encuentra al final de cada paso, podrás ver la solución a los pasos, utilízalo solo en los casos en que no puedas resolverlo. Para volver al enunciado del paso, da clic en el botón "Hide Solution".
 
 
 ## Inicio
@@ -31,6 +33,8 @@ Para la configuración inicial ejecuta los siguientes comandos, sustituyéndolos
 `git config --global user.email "tucorreo@mail.com"`{{copy}}
 
 ## Muestra de resultado esperado
+
+En la mayoría de pasos se te mostrará el resultado que debiste tener al ejecutar la tarea, tenga en cuenta que en algunos casos puede diferir el resultado esperado con tu resultado (ejm: nombres de ramas). Con esto puedes validar si ejecutaste bien las tareas.
 
 ![Resultado esperado](./assets/1.png)
 
