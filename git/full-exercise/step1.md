@@ -1,3 +1,16 @@
+## Instrucciones Uso de la plataforma
+
+Cuando se le indique que copie o ejecute un comando que tenga esta apariencia `(ícono de 2 hojas)`{{copy}} debe darle clic en el ícono y se copiará automáticamente en el portapapeles. Vamos a probar, ejecuta el siguiente comando en la consola `echo "hola mundo"`{{copy}}, recuerda dar clic en el ícono de las 2 hojitas, luego da clic derecho en la consola y seleciona PEGAR, para ejecutar el comando oprime la tecla enter.
+
+Hay comandos que no tendrás que copiar y pegar manualmente como el anterior, solo con dar clic encima de ellos se ejecutará en la consola automáticamente. Ejemplo, ejecuta el siguiente comando `echo "hola mundo"`{{execute}}, ¿viste que se ejecutó solo?.
+
+En algunos ejercicios te pediremos que ejecutes un comando pero cambiando alguna palabra, para hacer esto copia el comando como te enseñamos inicialmente, pégalo en la consola y con la ayuda de las teclas de dirección izquierda y derecha puedes mover el cursor, para borrar puedes utilizar la tecla Supr o Del. Para ejecutar el comando oprime la tecla enter.
+
+Ejemplo ejecuta el siguiente comando cambiando TU_NOMBRE por el tuyo `echo "hola mundo, soy TU_NOMBRE"`{{copy}}, se debió haber impreso en la consola el mensaje de "hola mundo, soy TU_NOMBRE_REAL"
+
+
+## Inicio
+
 Suponiendo que ya tienes git instalado en tu dispositivo, debes hacer algunas cosas para personalizar tu entorno de Git. Es necesario hacer esta configuración solo una vez en tu computadora y se mantendrán entre actualizaciones. También puedes cambiarlas en cualquier momento volviendo a ejecutar los comandos correspondientes.
 
 Git trae una herramienta llamada git config, que te permite obtener y establecer variables de
