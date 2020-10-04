@@ -4,8 +4,8 @@ En este paso se creará un archivo .html con tu información, este archivo lo de
 
 Copia el siguiente comando en la consola, reemplaza el texto "Tu_Nombre_Completo_Sin\_Espacios.html" por tu nombre real, sin espacios o separado por guion bajo _. Mantenga la palabra archivos/ y la extensión .html. Con esto se crera un nuevo archivo html en la carpeta archivos.
 
-````echo '\<h1>Nombre: \</h1>
-\<p>Rol: \</p>' >> archivos/Tu_Nombre_Completo_Sin_Espacios.html````{{copy}}
+`echo "<h1>Nombre: </h1>
+\<p>Rol: </p>" >> archivos/Tu_Nombre_Completo_Sin_Espacios.html`{{copy}}
 
 Ahora que el archivo está creado, búscalo en la parte superior, (De clic en la carpeta "TallerGit", luego da clic en la carpeta "archivos", busca el archivo recién creado y de clic sobre él para abrirlo, ahora que tienes el archivo abierto en el editor modifícalo con tus datos. No es necesario guardar, ya que en esta plataforma se guarda automáticamente cada cambio en el editor de archivos.
 
