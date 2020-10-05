@@ -36,7 +36,7 @@
     "environment": {
       "hideHiddenFiles": false,
       "uilayout": "vscode-terminal-split",
-      "uieditorpath": "/root"
+      "uieditorpath": "/home/scrapbook/tutorial"
     },
     "backend": {
       "imageid": "git"
