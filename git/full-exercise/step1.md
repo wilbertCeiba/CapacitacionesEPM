@@ -10,8 +10,6 @@ Ejemplo ejecuta el siguiente comando cambiando TU_NOMBRE por el tuyo y mantenien
 
 En algunos casos se te pedirá que cambies algo en un comando por tu nombre sin espacios, puedes separarlos por guión bajo. Ejemplo: Gonzalo_Andres_Garcia.
 
-Si haces clic en el botón "Show Solution" que se encuentra al final de cada paso, podrás ver la solución a los pasos, utilízalo solo en los casos en que no puedas resolverlo. Para volver al enunciado del paso, da clic en el botón "Hide Solution".
-
 
 ## Inicio
 
