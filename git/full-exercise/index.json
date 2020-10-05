@@ -8,6 +8,7 @@
         {
           "title": "Paso 1: Configuración global",
           "text": "step1.md",
+          "background":"step1-background.sh",
           "answer": "step1-answer.md",
           "verify": "step1-verify.sh"
         },
