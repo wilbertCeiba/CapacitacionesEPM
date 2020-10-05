@@ -6,11 +6,11 @@ Para resolver el conflicto, los archivos deben editarse para que coincidan con n
 
 ## Tarea
 
-En consola en la salida de la ejecución de comando `git merge` vera el nombre de un archivo en las misma linea donde aparece el siguiente texto `Auto-merging` el nombre de archivo tiene el formato `merge_<#aleatorio>.txt`.
+En consola ejecute `echo $file`{{execute}} para conocer el nombre del archivo que se creo para este escenario, selecciónelo y haga click derecho para copiarlo.
 
-Para buscarlo el archivo de manera sencilla en el árbol de archivos, expanda la carpeta `Aprendiendo_Git`, presione <kbd>Ctrl</kbd>+<kbd>F</kbd> para activar el buscador del navegador, copie y pegue o escriba el la caja de texto el nombre del archivo. Al bajar el scroll del árbol de archivo verá el nombre resaltado.
+Luego seleccione el archivo en el árbol de archivos, para hacerlo de manera sencilla en el árbol de archivos, expanda la carpeta `Aprendiendo_Git`, presione <kbd>Ctrl</kbd>+<kbd>F</kbd> para activar el buscador del navegador, pegue en la caja de texto el nombre del archivo. Al bajar el scroll del árbol de archivos verá el nombre resaltado.
 
-Cuando conozca el nombre del archivo, búsquelo y selecciónelo. Cuando vea su contenido observará el formato de git para marcar los conflictos.
+De click sobre este para abrilo en el editor. Cuando vea su contenido observará el formato de git para marcar los conflictos.
 
 Aunque se ve sencillo y fácil de identificar el conflicto, cuando son archivos con muchas lineas de código y muchos conflictos esta tarea no es tan sencilla. Pero no se preocupe, como se menciona en escenarios anteriores git puede ser gestionado multiples interfaces de usuario, las cuales simplifican la solución de conflictos.
 
