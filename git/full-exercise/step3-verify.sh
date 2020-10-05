@@ -1,1 +1,1 @@
-ls | grep -i 'archivos' && ls | grep -i 'README.md' && echo "done"
+echo "done"

@@ -1,8 +1,8 @@
 {
-    "title": "Escenario 5: Ejercicio completo",
+    "title": "Ejercicio completo",
     "description": "Aprenda a utilizar los comandos básicos para realizar tareas git",
     "difficulty": "Intermedio",
-    "time": "10 minutos",
+    "time": "15 minutos",
     "details": {
       "steps": [
         {
