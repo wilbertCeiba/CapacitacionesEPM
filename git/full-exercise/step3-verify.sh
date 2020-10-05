@@ -1,1 +1,1 @@
-pwd | grep -i '/home/scrapbook/tutorial/TallerGit' && echo "done"
+ls | grep -i 'archivos' && ls | grep -i 'README.md' && echo "done"
