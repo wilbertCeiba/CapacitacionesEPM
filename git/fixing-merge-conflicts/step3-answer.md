@@ -1,4 +1,6 @@
-`git checkout --ours $file`{{execute}}
+
+<pre class="file" data-target="replace">console.log("Modificado por mi");
+</pre>
 
 `git add $file`{{execute}}
 
