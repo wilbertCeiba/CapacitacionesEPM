@@ -35,7 +35,8 @@
     },
     "environment": {
       "hideHiddenFiles": false,
-      "uilayout": "vscode-terminal-split"
+      "uilayout": "vscode-terminal-split",
+      "uieditorpath": "/root"
     },
     "backend": {
       "imageid": "git"
