@@ -28,6 +28,8 @@ introducida de manera inmutable en los commits que envías:
 Para la configuración inicial ejecuta los siguientes comandos, sustituyéndolos con tus datos reales y manteniendo las comillas.
 
 `git config --global user.name "Tu Nombre Completo"`{{copy}}
+
+
 `git config --global user.email "tucorreo@mail.com"`{{copy}}
 
 ## Muestra de resultado esperado
