@@ -1,6 +1,7 @@
 
-<pre class="file" data-target="replace">console.log("Modificado por mi");
-</pre>
+`console.log("Modificado por mi");`{{copy}}
+
+Eliminé todo el contendido del archivo y presione <kbd>Ctrl</kbd>+<kbd>V</kbd> para pegar el texto copiado.
 
 `git add $file`{{execute}}
 
