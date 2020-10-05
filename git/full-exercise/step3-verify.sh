@@ -1,1 +1,1 @@
-pwd | grep -i '/TallerGit' && echo "done"
+pwd | grep -i '/home/scrapbook/tutorial/TallerGit' && echo "done"
