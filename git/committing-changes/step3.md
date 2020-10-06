@@ -1,8 +1,10 @@
-Al igual que en el escenario anterior, para realizar un cambio, primero se debe realizar mediante el comando `git add`.
+Como se mencionó en el escenario anterior, para que un cambió se vea reflejado en el repositorio, primero se debe utilizar el comando `git add`, para agregar dicho cambio en el área de preparación y luego `git commit` para confirmarlo.
 
 ## Tarea
 
-Use el comando `git add` para enviar al área de preparación los cambios del archivo `committed.js`
+Use el comando `git add` para enviar al área de preparación los cambios del archivo `committed.js`.
+
+Y luego use `git commit` para confirmar los cambios al repositorio.
 
 ## Tips
 
