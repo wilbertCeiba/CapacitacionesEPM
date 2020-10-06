@@ -8,6 +8,6 @@ Automáticamente se creo un archivo llamado `staging_<random_number>.txt` dentro
 
 Use el comando `git push` para enviar la confirmación de confirmación de la rama `master` al origen remoto. 
 
-Cuando le solicite ingresar el password por favor copie y pegue la siguiente cadena y de presione enter. Cuando pegue la cadena esta no se mostrara en la consola.`tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq`
+Cuando le solicite ingresar el password por favor copie y pegue la siguiente cadena y presione enter. Cuando pegue la cadena esta no se mostrara en la consola.`tb3yofvnvj2dunk5ty6xlq6574lmk66eqnbfltjazlyjwedix2kq` 
 
 

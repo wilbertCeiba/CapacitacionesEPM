@@ -1,0 +1,1 @@
+En este escenario, hemos explorado cómo resolver conflictos con otras confirmaciones. La fusión es una parte importante de Git.
