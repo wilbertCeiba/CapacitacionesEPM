@@ -8,7 +8,7 @@ Para resolver el conflicto, los archivos deben editarse para que coincidan con n
 
 En consola ejecute `echo $file`{{execute}} para conocer el nombre del archivo que se creo para este escenario, selecciónelo y haga click derecho para copiarlo.
 
-Luego seleccione el archivo en el árbol de archivos, para hacerlo de manera sencilla en el árbol de archivos, expanda la carpeta `Aprendiendo_Git`, presione <kbd>Ctrl</kbd>+<kbd>F</kbd> para activar el buscador del navegador, pegue en la caja de texto el nombre del archivo. Al bajar el scroll del árbol de archivos verá el nombre resaltado.
+Luego seleccione el archivo en el árbol de archivos, para hacerlo de manera sencilla expanda la carpeta `Aprendiendo_Git`, presione <kbd>Ctrl</kbd>+<kbd>F</kbd> para activar el buscador del navegador, pegue en la caja de texto el nombre del archivo. Al bajar el scroll del árbol de archivos verá el nombre resaltado.
 
 De click sobre este para abrilo en el editor. Cuando vea su contenido observará el formato de git para marcar los conflictos.
 
