@@ -1,4 +1,8 @@
-A veces, hay archivos o directorios particulares que nunca desea confirmar, como la configuración de desarrollo local. Git ignore #No# es un comando de git. Para ignorar estos archivos, se debe crear un archivo `.gitignore` en la raíz del repositorio.
+A veces, hay archivos o directorios particulares que nunca desea confirmar, como la configuración de desarrollo local. 
+
+Git ignore [No] es un comando de git. 
+
+Para ignorar estos archivos, se debe crear un archivo `.gitignore` en la raíz del repositorio.
 
 El archivo `.gitignore` le permite definir comodines para los archivos que desea ignorar, por ejemplo `* .tmp` ignorará todos los archivos con la extensión `.tmp`.  
 

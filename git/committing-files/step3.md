@@ -4,7 +4,9 @@ Uno de los enfoques clave con Git es que las confirmaciones son enfocadas, peque
 
 ## Tarea
 
-Use el comando `git add <archivo | directorio>` para agregar `hello-world.js` al área de preparación.  
+Use el comando `git add <archivo | directorio>` para agregar `hello-world.js` al área de preparación.
+
+Luego use nuevamente el comando `git status` para conocer nuevamente el estado del repositorio, como ve este ha cambiado.
 
 Si realiza un cambio adicional después de agregar un archivo al área de preparación, el cambio no se reflejará hasta que agregue el archivo nuevamente.
 
