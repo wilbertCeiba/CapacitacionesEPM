@@ -6,9 +6,9 @@ Primero que todo debes ejecutar el siguiente comando para pasarse a la rama de d
 
 `git checkout desarrollo`{{execute}}
 
-Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de desarrollo. Para crear una nueva rama y saltar a ella en un solo paso se debe ejecutar el siguiente comando **(reemplaza el nombre de ejemplo por el nombre tuyo completo separado por \_ sin caracteres especiales ni tildes,**Ejemplo 
+Ahora que estás ubicado en la rama de desarrollo, lo que sigue es crear una nueva rama a partir de desarrollo. Para crear una nueva rama y saltar a ella en un solo paso se debe ejecutar el siguiente comando (**reemplaza el nombre de ejemplo por el nombre tuyo completo separado por \_ sin caracteres especiales ni tildes,**) 
 
-`git checkout -b feature/jorge_alonso_cadavid_garcia`{{copy}}). 
+`git checkout -b feature/jorge_alonso_cadavid_garcia`{{copy}} 
 
 Esto se hace con el fin de que no hayan ramas con el mismo nombre en distintos participantes y puedas identificar tus cambios en los ejercicios posteriores.
  
