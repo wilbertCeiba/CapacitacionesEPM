@@ -6,7 +6,7 @@ Use el comando `git log` para obtener el historial de confirmaciones.
 
 En la salida en consola se mostrará la confirmación realizada en el paso anterior.
 
-Al ejecutar el comando no se preocupe si no entiende la salida que arroja, de todos modos no es muy amigable su presentación.
+Al ejecutar el comando no te preocupes si no entiende la salida que arroja, de todos modos no es muy amigable su presentación.
 
 Tampoco es importante que se aprenda de memoria cada linea de la salida. Lo importante es entender que git tiene la capacidad de mostrar el historial de confirmaciones realizadas, así como información relevante como Autor, fecha y mensaje.
 

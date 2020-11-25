@@ -12,7 +12,7 @@ Luego seleccione el archivo en el árbol de archivos, para hacerlo de manera sen
 
 De click sobre este para abrilo en el editor. Cuando vea su contenido observará el formato de git para marcar los conflictos.
 
-Aunque se ve sencillo y fácil de identificar el conflicto, cuando son archivos con muchas lineas de código y muchos conflictos esta tarea no es tan sencilla. Pero no se preocupe, como se menciona en escenarios anteriores git puede ser gestionado multiples interfaces de usuario, las cuales simplifican la solución de conflictos.
+Aunque se ve sencillo y fácil de identificar el conflicto, cuando son archivos con muchas lineas de código y muchos conflictos esta tarea no es tan sencilla. Pero no te preocupes, como se menciona en escenarios anteriores git puede ser gestionado multiples interfaces de usuario, las cuales simplifican la solución de conflictos.
 
 ## Tips
 
