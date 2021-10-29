@@ -1,0 +1,175 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: Job_1
+  displayName: Lighthouse-CLI
+  condition: eq(variables.onPremises, 'false')
+  pool:
+    vmImage: ubuntu-20.04
+  steps:
+  - checkout: self
+    clean: true
+    persistCredentials: True
+  - task: CmdLine@2
+    displayName: install-lighthouse-batch
+    inputs:
+      script: npm i lighthouse-batch -g
+  - task: CmdLine@2
+    displayName: install-Throttle
+    inputs:
+      script: npm install @sitespeed.io/throttle -g
+  - task: CmdLine@2
+    displayName: Start simulate network
+    continueOnError: True
+    inputs:
+      script: throttle --up 12000  --down 12000 --rtt 35
+      workingDirectory: $(Build.ArtifactStagingDirectory)
+  - task: PowerShell@2
+    displayName: Lighthouse-Reporte
+    continueOnError: True
+    enabled: False
+    inputs:
+      targetType: inline
+      script: "# Crear una clase con tres propiedades: id, name , summary\nclass Reporte\n{ \n    [Int]$id\n    [String]$nameApp\n    [String]$url\n    [String]$name\n    [String]$file\n    [Double]$score\n    [Object]$detail\n    [Object]$errors\n}\n\n#Creo un ArrayList para añadir los objetos de la clase Reporte\n$reportes = New-Object System.Collections.ArrayList\n\n\n#Convertimos nuestra variable request  objecto\n$data_apps = ConvertFrom-Json -InputObject  $Env:request \n\n#Convertimos nuestra variable metrica_value objecto\n$metrica = ConvertFrom-Json -InputObject  $Env:metrica_value\n\n$_directory_report = \"$(Build.ArtifactStagingDirectory)\\report\\lighthouse\\\"\n$_directory_temp = \"$(Build.ArtifactStagingDirectory)\\$Env:directorio\"\n\n\nif (-not (Test-Path $_directory_temp))\n{\n  New-Item $_directory_temp -itemType Directory\n}\n\nforeach($app in $data_apps)\n{\n  #Ejecuto lighthouse-batch\n  lighthouse-batch -s $app.url  --performance $metrica.performance_expected --seo  $metrica.seo_expected --best-practices  $metrica.best_practices_expected --accessibility  $metrica.accessibility_expected --fail-fast  --params \"--form-factor=mobile --throttling.cpuSlowdownMultiplier=1\"\n  \n#Leemos la informacion del reporte de  Lighthouse\n $data_report = Get-Content report\\lighthouse\\summary.json | ConvertFrom-Json\n\n\n  $file = $data_report.file\n  $_path = \"report\\lighthouse\\$file\"\n\n#Copiamos el archivo de reporte de la pagina evaluada\n  Copy-Item –Path $_path –Destination $_directory_temp -PassThru\n\n#Crear objeto reporte de la clase Reporte\n  $reporte = New-Object -TypeName Reporte\n\n#Llenamos el reporte\n  $reporte.id = $app.id\n  $reporte.nameApp = $app.name\n  $reporte.url = $data_report.url\n  $reporte.name = $data_report.name\n  $reporte.file = $data_report.file\n  $reporte.score = $data_report.score\n  $reporte.detail = $data_report.detail\n  $reporte.errors = $data_report.errors\n  \n  #Llenamos el array reportes\n  [void]$reportes.Add($reporte)\n\n}\n\n\n$reportes  | ConvertTo-Json | Out-File -Encoding \"UTF8\"  \"$_directory_temp\\summary.json\"\n"
+  - task: PowerShell@2
+    displayName: Lighthouse-Reporte-URL
+    condition: eq(variables.onPremises, 'false')
+    continueOnError: True
+    inputs:
+      targetType: inline
+      script: "# Crear una clase con tres propiedades: id, name , summary\nclass Reporte\n{ \n    [Int]$id\n    [String]$nameApp\n    [String]$url\n    [String]$name\n    [String]$file\n    [Double]$score\n    [Object]$detail\n    [Object]$errors\n}\n\n#Creo un ArrayList para añadir los objetos de la clase Reporte\n$reportes = New-Object System.Collections.ArrayList\n\n\n#Convertimos nuestra variable request  objecto\n$data_apps = ConvertFrom-Json -InputObject   $(request)\n\n#Convertimos nuestra variable metrica_value objecto\n$metrica = ConvertFrom-Json -InputObject   $(metrica_value)\n\n$_directory_report = \"$(Build.ArtifactStagingDirectory)/report/lighthouse/\"\n$_directory_temp = \"$(Build.ArtifactStagingDirectory)/$(directorio)\"\n\n\nif (-not (Test-Path $_directory_temp))\n{\n  New-Item $_directory_temp -itemType Directory\n}\n\nforeach($app in $data_apps)\n{\n  #Ejecuto lighthouse-batch\n  lighthouse-batch -s $app.url  --performance $metrica.performance_expected --seo  $metrica.seo_expected --best-practices  $metrica.best_practices_expected --accessibility  $metrica.accessibility_expected --fail-fast  --params \"--form-factor=mobile --throttling.cpuSlowdownMultiplier=1\"\n  \n#Leemos la informacion del reporte de  Lighthouse\n $data_report = Get-Content report/lighthouse/summary.json | ConvertFrom-Json\n\n\n  $file = $data_report.file\n  $_path = \"report/lighthouse/$file\"\n\n#Copiamos el archivo de reporte de la pagina evaluada\n  Copy-Item –Path $_path –Destination $_directory_temp -PassThru\n\n#Crear objeto reporte de la clase Reporte\n  $reporte = New-Object -TypeName Reporte\n\n#Llenamos el reporte\n  $reporte.id = $app.id\n  $reporte.nameApp = $app.name\n  $reporte.url = $data_report.url\n  $reporte.name = $data_report.name\n  $reporte.file = $data_report.file\n  $reporte.score = $data_report.score\n  $reporte.detail = $data_report.detail\n  $reporte.errors = $data_report.errors\n  \n  #Llenamos el array reportes\n  [void]$reportes.Add($reporte)\n\n}\n\n\n$reportes  | ConvertTo-Json | Out-File -Encoding \"UTF8\"  \"$_directory_temp/summary.json\"\n\nls $_directory_temp"
+      pwsh: true
+  - task: CmdLine@2
+    displayName: Stop simulate network
+    continueOnError: True
+    inputs:
+      script: throttle stop
+      workingDirectory: $(Build.ArtifactStagingDirectory)
+  - task: ArchiveFiles@2
+    displayName: Artifact .zip
+    inputs:
+      rootFolderOrFile: $(Build.ArtifactStagingDirectory)/$(directorio)
+      includeRootFolder: false
+  - task: AzureCLI@2
+    displayName: 'Azure CLI  - Upload result '
+    inputs:
+      connectedServiceNameARM: 3a5602f0-2d47-4142-bd4d-5a04f1ce9111
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: >-
+        cd "$(Build.ArtifactStagingDirectory)"
+
+
+        az login -u wilbert.bermeo@ceiba.com.co -p Apomax332383--
+
+
+        az account set --subscription a6ac3403-72b1-4ffa-bc28-72b94743fb3f
+
+
+        az storage blob upload --container-name $(result_container_name) --file "$(Build.BuildId).zip" --name "$(Build.BuildId).zip" --account-key $(accountkey) --account-name $(accountname)
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'
+    enabled: False
+- job: Job_2
+  displayName: Agent job onPremise
+  condition: eq(variables.onPremises, 'true')
+  pool:
+    vmImage: ubuntu-20.04
+  steps:
+  - checkout: self
+    clean: true
+  - task: CmdLine@2
+    displayName: install-lighthouse-batch copy
+    inputs:
+      script: npm i lighthouse-batch -g
+  - task: AzureCLI@2
+    displayName: 'Azure CLI '
+    condition: eq(variables.onPremises, 'true')
+    inputs:
+      connectedServiceNameARM: 3a5602f0-2d47-4142-bd4d-5a04f1ce9111
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: >-
+        cd "$(Build.ArtifactStagingDirectory)"
+
+
+        az login -u wilbert.bermeo@ceiba.com.co -p Apomax332383--
+
+
+        az account set --subscription a6ac3403-72b1-4ffa-bc28-72b94743fb3f
+
+
+        az storage blob download --container-name $(container_name) --file $(file-name) --name "$(file-name)" --account-key $(accountkey) --account-name $(accountname)
+  - task: ExtractFiles@1
+    displayName: 'Extract files '
+    inputs:
+      archiveFilePatterns: $(Build.ArtifactStagingDirectory)/*.zip
+      destinationFolder: $(Build.ArtifactStagingDirectory)
+      cleanDestinationFolder: false
+      overwriteExistingFiles: true
+  - task: AzureStaticWebApp@0
+    displayName: 'Static Web App: '
+    inputs:
+      cwd: $(Build.ArtifactStagingDirectory)
+      app_location: /MicroapppCamare
+      output_location: /MicroapppCamare
+      api_location: api
+      skip_app_build: true
+      azure_static_web_apps_api_token: df725fcbfc9253abec3f4618e9d867c0feec9fe22f5c488fd48222fb84ecd5dd0-63066c1b-e5f6-42b1-b513-96a20262d2be00f17506
+  - task: CmdLine@2
+    displayName: install-Throttle copy
+    inputs:
+      script: npm install @sitespeed.io/throttle -g
+  - task: CmdLine@2
+    displayName: Start simulate network copy
+    continueOnError: True
+    inputs:
+      script: throttle --up 12000  --down 12000 --rtt 35
+      workingDirectory: $(Build.ArtifactStagingDirectory)
+  - task: PowerShell@2
+    displayName: Lighthouse-Reporte-URL OnPrimeses
+    continueOnError: True
+    inputs:
+      targetType: inline
+      script: "# Crear una clase con tres propiedades: id, name , summary\nclass Reporte\n{ \n    [Int]$id\n    [String]$nameApp\n    [String]$url\n    [String]$name\n    [String]$file\n    [Double]$score\n    [Object]$detail\n    [Object]$errors\n}\n\n#Creo un ArrayList para añadir los objetos de la clase Reporte\n$reportes = New-Object System.Collections.ArrayList\n\n\n#Convertimos nuestra variable request  objecto\n$data_apps = ConvertFrom-Json -InputObject   $(request)\n\n#Convertimos nuestra variable metrica_value objecto\n$metrica = ConvertFrom-Json -InputObject   $(metrica_value)\n\n$_directory_report = \"$(Build.ArtifactStagingDirectory)/report/lighthouse/\"\n$_directory_temp = \"$(Build.ArtifactStagingDirectory)/$(directorio)\"\n\n\nif (-not (Test-Path $_directory_temp))\n{\n  New-Item $_directory_temp -itemType Directory\n}\n\nforeach($app in $data_apps)\n{\n  #Ejecuto lighthouse-batch\n  lighthouse-batch -s https://purple-stone-01074e20f.azurestaticapps.net  --performance $metrica.performance_expected --seo  $metrica.seo_expected --best-practices  $metrica.best_practices_expected --accessibility  $metrica.accessibility_expected --fail-fast  --params \"--form-factor=mobile --throttling.cpuSlowdownMultiplier=1\"\n  \n#Leemos la informacion del reporte de  Lighthouse\n $data_report = Get-Content report/lighthouse/summary.json | ConvertFrom-Json\n\n\n  $file = $data_report.file\n  $_path = \"report/lighthouse/$file\"\n\n#Copiamos el archivo de reporte de la pagina evaluada\n  Copy-Item –Path $_path –Destination $_directory_temp -PassThru\n\n#Crear objeto reporte de la clase Reporte\n  $reporte = New-Object -TypeName Reporte\n\n#Llenamos el reporte\n  $reporte.id = $app.id\n  $reporte.nameApp = $app.name\n  $reporte.url = $data_report.url\n  $reporte.name = $data_report.name\n  $reporte.file = $data_report.file\n  $reporte.score = $data_report.score\n  $reporte.detail = $data_report.detail\n  $reporte.errors = $data_report.errors\n  \n  #Llenamos el array reportes\n  [void]$reportes.Add($reporte)\n\n}\n\n\n$reportes  | ConvertTo-Json | Out-File -Encoding \"UTF8\"  \"$_directory_temp/summary.json\"\n\nls $_directory_temp"
+      pwsh: true
+  - task: CmdLine@2
+    displayName: Stop simulate network copy
+    continueOnError: True
+    inputs:
+      script: throttle stop
+      workingDirectory: $(Build.ArtifactStagingDirectory)
+  - task: ArchiveFiles@2
+    displayName: Artifact .zip copy
+    inputs:
+      rootFolderOrFile: $(Build.ArtifactStagingDirectory)/$(directorio)
+      includeRootFolder: false
+  - task: AzureCLI@2
+    displayName: Azure CLI  - Upload result
+    inputs:
+      connectedServiceNameARM: 3a5602f0-2d47-4142-bd4d-5a04f1ce9111
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: >-
+        cd "$(Build.ArtifactStagingDirectory)"
+
+
+        az login -u wilbert.bermeo@ceiba.com.co -p Apomax332383--
+
+
+        az account set --subscription a6ac3403-72b1-4ffa-bc28-72b94743fb3f
+
+
+        az storage blob upload --container-name $(result_container_name) --file "$(Build.BuildId).zip" --name "$(Build.BuildId).zip" --account-key $(accountkey) --account-name $(accountname)
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop copy'
+    enabled: False
